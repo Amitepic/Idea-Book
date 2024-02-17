@@ -1,0 +1,42 @@
+.rightaside{
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    flex:6;
+    background-color: #DAE5F5;
+    gap:2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display:none;
+    
+}
+.rightaside p{
+
+    width: 430px;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    /* font-weight: 500; */
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: -webkit-center;
+    color: #292929;
+    
+
+}
+
+.rightaside img{
+    height:260px;
+    /* white:60px; */
+    
+}
+.right-second-page {
+    height: 100vh;
+    background-color: #DAE5F5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex: 6;  
+   
+    
+}
+
+

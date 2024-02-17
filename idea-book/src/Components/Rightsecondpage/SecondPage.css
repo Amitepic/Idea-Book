@@ -1,0 +1,15 @@
+
+
+.secondPage {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+
+.All-notes{
+     height:52vh;
+     width:100%;
+     overflow:scroll;
+}

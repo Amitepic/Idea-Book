@@ -1,0 +1,22 @@
+.main{
+    position:relative; 
+}
+
+
+.add-btn{
+    position:absolute;
+    top:500px;    
+    right: 950px;
+    
+
+}
+.btn{
+    height: 32px;
+    width: 42px;
+    border-radius:50%;
+    border:none;
+    
+    size:20px;
+    background-color: #16008B;
+    color:white;
+}

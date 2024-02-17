@@ -1,0 +1,78 @@
+.AddNotesPopup {
+    border-radius: 8px;
+    line-height: 42px;
+    padding: 1rem;
+    width: 40vw;
+    height: 38vh;
+    position: absolute;
+    background-color: white;
+   
+    top: 33.5vh;
+    right: 31vw;
+    text-align: start;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: none;
+}
+
+.AddNotesPopup .text{
+    
+    
+    
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 50px;
+letter-spacing: 0.035em;
+text-align: left;
+
+}
+
+.cards{
+    display:flex;
+    justify-content:space-around;
+    
+
+}
+.card1{
+    height:30px;
+    width:30px;
+    margin:5px;
+    background-color: #B38BFA;
+    border-radius:50%;
+    
+}
+.card2{
+    height:30px;
+    width:30px;
+    margin:5px;
+    background-color: #FF79F2;
+
+    border-radius:50%;
+    
+}
+.card3{
+    height:30px;
+    width:30px;
+    margin:5px;
+    background-color:  #F19576;
+    border-radius:50%;
+    
+}
+.text input{
+    height:25px;
+    border:1px solid black;
+    border-radius:8px;
+    padding:2px 6px;
+    
+}
+.create-btn {
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    right: 33px;
+    padding: 3px;
+    color: white;
+    width: 83px;
+    background-color: #001F8B;
+    height: 25px;
+}

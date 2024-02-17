@@ -1,0 +1,42 @@
+.LeftMain{
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    flex:2;
+    padding:1rem;   
+    background-color: white;
+    /* text-align:center; */
+
+    
+}
+
+.title{
+    font-family: Roboto;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+
+}
+
+.Notes{
+    display:flex;
+    gap:1rem;
+    margin:0.5rem;
+    padding:0.5rem;
+    justify-content:start;
+    align-items:center;
+    
+}
+
+.Notes p{
+    padding: 1rem;
+    height: 55px;
+    font-family: Roboto;
+    font-size: 20px;
+    border:1px solid black;
+    border-radius:50%;
+}
