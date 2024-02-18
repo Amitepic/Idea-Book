@@ -7,7 +7,7 @@
     padding:1rem;   
     background-color: white;
     /* text-align:center; */
-
+    overflow: scroll;
     
 }
 
@@ -29,6 +29,7 @@
     padding:0.5rem;
     justify-content:start;
     align-items:center;
+   
     
 }
 

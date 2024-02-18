@@ -19,6 +19,21 @@ const AddNotesPop = () =>{
         NotesDataGlobal.setNotesData([...NotesDataGlobal.NotesData, CreateNote]);
         localStorage.setItem('NotesLocal', JSON.stringify(NotesDataGlobal));
 
+        const show = document.getElementsByClassName("AddNotesPopup");
+        show[0].style.display = "none";
+         
+       
+
+        const showNotes = document.getElementsByClassName("rightaside");
+        showNotes[0].style.display = "none";
+
+        const Hidemain = document.getElementsByClassName("right-second-page");
+        Hidemain[0].style.display = "block";
+
+        
+
+        
+
     }
 
     return(

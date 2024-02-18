@@ -22,6 +22,8 @@ const LeftAside = () => {
          <Notes name={"React"}  p={"R"}/>
          <hr />
          <Notes name={"Java"}  p={"J"}/>
+         <hr />
+        
          
 
         </div>

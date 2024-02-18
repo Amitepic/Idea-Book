@@ -1,15 +1,17 @@
+
 .rightaside{
     height: 100vh;
-    display:flex;
-    flex-direction:column;
+    
+    gap: 2rem;    
+    background-color: #DAE5F5;    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    display: block;
+    display: flex;
+    flex: 6;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex:6;
-    background-color: #DAE5F5;
-    gap:2rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    display:none;
-    
+
 }
 .rightaside p{
 
@@ -30,12 +32,12 @@
     /* white:60px; */
     
 }
-.right-second-page {
+.right-second-page{
     height: 100vh;
     background-color: #DAE5F5;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     flex: 6;  
-   
+    display: none;
     
 }
 
